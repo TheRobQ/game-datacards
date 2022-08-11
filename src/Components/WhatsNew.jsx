@@ -58,12 +58,15 @@ export const WhatsNew = () => {
                         <li>
                           <strong>Added a Markdown editor to all textfields.</strong>
                           <br />
-                          All textarea&apos;s have been replaced with a simple Markdown editor. This is in preparation to add a table that certain texts might have.
+                          All textarea&apos;s have been replaced with a simple Markdown editor. This is in preparation
+                          to add a table that certain texts might have.
                         </li>
                         <li>
                           <strong>Note option added to Necromunda cards</strong>
                           <br />
-                          Fighter &amp; Vehicle cards now have a <strong>Note</strong> section where you can write down stuff you want to remember but don&apos;t need to print on a card. Please note that this will also be shared when sharing your category.
+                          Fighter &amp; Vehicle cards now have a <strong>Note</strong> section where you can write down
+                          stuff you want to remember but don&apos;t need to print on a card. Please note that this will
+                          also be shared when sharing your category.
                         </li>
                         <li>
                           <strong>Drag &amp; Drop</strong>
@@ -76,13 +79,16 @@ export const WhatsNew = () => {
                     <Typography.Paragraph style={{ fontSize: "16px" }}>
                       <ul>
                         <li>
-                          <strong>Necromunda:</strong> Renamed the <strong>Gang card</strong> to <strong>Fighter card</strong> to better represent what kind of card it is.
+                          <strong>Necromunda:</strong> Renamed the <strong>Gang card</strong> to{" "}
+                          <strong>Fighter card</strong> to better represent what kind of card it is.
                         </li>
                         <li>
-                          <strong>Necromunda:</strong> Renamed the <strong>Empty Type Card</strong> to <strong>Type Card (for pen &amp; paper)</strong> to better represent what their purpose is.
+                          <strong>Necromunda:</strong> Renamed the <strong>Empty Type Card</strong> to{" "}
+                          <strong>Type Card (for pen &amp; paper)</strong> to better represent what their purpose is.
                         </li>
                         <li>
-                          <strong>Necromunda:</strong> Wargear, rules and abilities are now textfields and are no longer uppercased. You have full control over the text in this field.
+                          <strong>Necromunda:</strong> Wargear, rules and abilities are now textfields and are no longer
+                          uppercased. You have full control over the text in this field.
                         </li>
                         <li>
                           <strong>40K:</strong> Newly added cards with multiple damage tables now have a proper title.
@@ -94,6 +100,9 @@ export const WhatsNew = () => {
                       <ul>
                         <li>
                           <strong>Necromunda:</strong> Adding a new weapon to a card will no longer crash the app.
+                        </li>
+                        <li>
+                          <strong>All:</strong> Shared cards with a older version now work correctly again.
                         </li>
                       </ul>
                     </Typography.Paragraph>
